@@ -6,7 +6,7 @@ Firebase Functions emulator loads the secret value even though it is not bound t
 
 In production, the value is not being loaded when the secret is not bound.
 
-In production, once the secret is bound to the function, it does not unbind when the code is modified to no longer use that secret.
+Additional: In production, once the secret is bound to the function, it does not unbind when the code is modified to no longer use that secret.
 
 ## Versions
 
